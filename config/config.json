@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "mubin",
+    "password": "password",
     "database": "mydb",
     "host": "localhost",
     "dialect": "mysql"
