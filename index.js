@@ -26,7 +26,7 @@ app.get('/',(req,res)=>{
 
 db.sequelize.sync().
     then(()=>{ //before server starts check the tables
-        app.listen(process.env.MYSQLPORT || 3001, () =>{
+        app.listen(process.env.PORT || 3001, () =>{
             console.log('Server running on port 3001');
         });
     })
