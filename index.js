@@ -4,11 +4,7 @@ const cors = require('cors');  //Cross-origin resource sharing
 require('dotenv').config();
 
 app.use(express.json());
-app.use(cors({
-    origin: 'https://talent-globe.netlify.app', // Adjusted with frontend URL
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-    credentials: true, // Enable CORS credentials (cookies, HTTP authentication)
-  }));
+app.use(cors({}));
 
 const db = require('./models');
 
