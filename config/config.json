@@ -14,11 +14,11 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "${MYSQLUSER}",
-    "password": "${MYSQLPASSWORD}",
-    "database": "${MYSQLDATABASE}",
-    "host": "${MYSQLHOST}",
-    "port": "${MYSQLPORT}",
+    "username": "${env:MYSQLUSER}",
+    "password": "${env:MYSQLPASSWORD}",
+    "database": "${env:MYSQLDATABASE}",
+    "host": "${env:MYSQLHOST}",
+    "port": "${env:MYSQLPORT}",
     "dialect": "mysql"
   }
 }
