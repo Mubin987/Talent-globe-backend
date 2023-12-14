@@ -5,6 +5,8 @@
 
 - Node.js
 - Express.js
+- Bcrypt.js
+- JSON Web Token
 - MySQL
 - SEQUELIZE ORM
 
