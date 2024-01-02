@@ -1,5 +1,5 @@
 # Job portal
-- Backend for repository named talent-globe-backend
+- Implemented CRUD (Create, Read, Update, Delete) operations on Database with help of Sequelize ORM on backend along with MySQL Workbench.
 
 # Technologies Used
 
